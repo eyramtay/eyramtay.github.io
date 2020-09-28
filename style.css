@@ -1,6 +1,7 @@
 body {
 	font: 16px Helvetica, Sans-Serif;
-	background: url(noise.png);
+	background-image: url("paper.gif");
+  background-color: #cccccc;
 }
 
 #pic {
