@@ -19,7 +19,7 @@ img {
 }
 
 body {
-  padding-bottom: $bodypadding;
+  /* padding-bottom: $bodypadding; */
   font-family: 'Sansita', 'Open Sans';
 }
 
@@ -40,6 +40,14 @@ h2 {
 
 p {
   line-height: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 .spacing{
@@ -69,26 +77,37 @@ p {
   text-align: center;
 }
 
-.profile-img {
+/* .profile-img {
   width: 10%;
   display: block;
   margin: 0 auto;
-}
+} */
 
 .contact {
   text-align: center;
   padding: 10px 0;
 }
 
-.icon-contact {
-  width: 5%;
+.fa-linkedin-square {
+	display: inline-block;
+  animation: rotate 3s linear 10;
 }
 
-.icon-contact {
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .icon-contact {
+  width: 5%;
+} */
+
+/* .icon-contact {
   width: 5%;
   list-style: none;
   text-align: center;
-}
+} */
 
 .icon-1 {
   display: inline;
